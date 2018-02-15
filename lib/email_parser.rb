@@ -12,7 +12,8 @@ class EmailParser
   end
 
   def parse
-    emails = self.email_list.split(" ")
+    emails = email_list.split(/\s|[,]/)
+    
     emails.flatten
   end
 
