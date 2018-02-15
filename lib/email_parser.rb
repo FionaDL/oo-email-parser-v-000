@@ -16,6 +16,7 @@ class EmailParser
     emails.map do |email|
       emails.split(",")
       emails
+    end
   end
 
 end
