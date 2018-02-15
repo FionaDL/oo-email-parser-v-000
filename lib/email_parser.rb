@@ -13,7 +13,7 @@ class EmailParser
 
   def parse
     emails = self.email_list.split(" ")
-    emails
+    emails.flatten
   end
 
 end
