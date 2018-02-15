@@ -15,7 +15,7 @@ class EmailParser
     emails = email_list.split
     emails.map do |email|
       email.split(",")
-    end
+    end.flatten
   end
 
 end
